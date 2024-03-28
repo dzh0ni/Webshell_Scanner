@@ -20,9 +20,10 @@ Ejecuta el script con la siguiente sintaxis:
 ```python
 python3 webshell_scanner.py -u URL -s WORDLIST_FILE [-o OUTPUT_FILE]
 ```
--u o --url: Especifica la URL del sitio web objetivo.
--s o --shell: Especifica la ruta al archivo que contiene una lista de nombres de archivos de webshells.
--o o --output (opcional): Permite guardar la salida en un archivo.
+
+* -u o --url: Especifica la URL del sitio web objetivo.
+* -s o --shell: Especifica la ruta al archivo que contiene una lista de nombres de archivos de webshells.
+* -o o --output (opcional): Permite guardar la salida en un archivo.
 
 Ejemplo de Uso
 Ejemplo básico:
