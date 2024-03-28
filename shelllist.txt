@@ -1,0 +1,111 @@
+AK-74 Security Team Web Shell Beta Version.txt	
+Ajax_PHP Command Shell.txt	
+Antichat Shell v1.3.php	
+Antichat Shell. Modified by Go0o$E.txt	
+Antichat Shell.txt	
+Ayyildiz Tim  -AYT- Shell v 2.1 Biz.txt	
+C99Shell v. 1.0 beta (5.02.2005).txt	
+C99Shell v. 1.0 pre-release build(safe-mode).txt	
+C99madShell v. 2.0 madnet edition.txt	
+CTT Shell.txt	
+CasuS 1.5.txt	
+CmdAsp.asp.txt.txt	
+Crystal shell.txt	
+Crystal.txt	
+CrystalShell v.1.txt	
+Cyber Shell (v 1.0).php	
+Cyber Shell.txt	
+CyberSpy5.Asp.txt.txt	
+DTool Pro.txt	
+Dive Shell 1.0 - Emperor Hacking Team.php	
+Dx.txt	
+DxShell v1.0.txt	
+DxShell.1.0.txt	
+EFSO_2.txt.txt	
+Elmaliseker.txt.txt	
+GFS Web-Shell.txt	
+GFS web-shell ver 3.1.7 - PRiV8.txt	
+GRP WebShell 2.0 release build 2018 (C)2006,Great.txt	
+Gamma Web Shell.txt	
+JspWebshell 1.2.php	
+KA_uShell 0.1.6.txt	
+KAdot Universal Shell v0.1.6.php	
+Liz0ziM Private Safe Mode Command Execuriton Bypass Exploit.php	
+Loaderz WEB Shell.txt	
+Macker's Private PHPShell.php	
+Moroccan Spamers Ma-EditioN By GhOsT.txt	
+MySQL Web Interface Version 0.8.php	
+MyShell.txt	
+Mysql interface v1.0.txt	
+NCC-Shell.txt	
+NFM 1.8.txt	
+NGH.txt	
+NIX REMOTE WEB SHELL.txt	
+NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version.php	
+NTDaddy v1.9.txt	
+NetworkFileManagerPHP.txt	
+PH Vayv.txt	
+PHANTASMA.txt	
+PHP Shell.txt	
+PHPJackal.txt	
+PHVayv.txt	
+Perl Web Shell by RST-GHC.pl	
+PhpSpy Ver 2006.txt	
+Predator.txt	
+Private-i3lue.php	
+RedhatC99 [login=redhat-pass=root]	
+aZRaiLPhp v1.0.php	
+accept_language.txt	
+alfa3.1.php	
+alfa3.1.txt	
+alfashell3
+Create alfashell3
+b374k-mini-shell-php.php.txt	
+b374k.php.txt	
+backupsql.txt	
+c0derz shell [csh] v. 0.1.1 release.txt	
+c99.txt	
+c99_PSych0.php	
+c99_locus7s.txt	
+c99_madnet.txt	
+c99_w4cking.txt	
+ctt_sh.txt	
+cybershell.txt	
+dC3 Security Crew Shell PRiV.txt	
+gfs_sh.txt	
+go-shell.txt	
+h4ntu shell [powered by tsoi].php	
+hiddens shell v1.txt	
+iMHaBiRLiGi Php FTP.txt	
+iMHaPFtp.txt	
+indexer.asp.txt.txt	
+ironshell.txt	
+jsp_shell
+Create jsp_shell
+klasvayv.asp.txt.txt	
+lamashell.txt	
+load_shell.txt	
+matamu.txt	
+mysql.txt	
+mysql_tool.txt	
+nsTView v2.1.txt	
+nshell.txt	
+nstview.txt	
+pHpINJ.txt	
+php-backdoor.txt	
+php-include-w-shell.txt	
+phpRemoteView.txt	
+pws.txt	
+r57.txt	
+r57_Mohajer22.txt	
+r57_iFX.txt	
+r57_kartal.txt	
+r57shell.txt	
+reader.asp.txt.txt
+webshell.php
+alfav4.1-tesla.php
+alfav4.1-tesla_encode_1.php
+c99shell.php
+51mp3L.php
+alfa-obfuscated.php
+wso.php
