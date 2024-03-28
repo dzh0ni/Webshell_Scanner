@@ -31,13 +31,13 @@ Ejemplo de Uso
 Ejemplo básico:
 
 ```python
-python3 webshell_scanner.py -u http://example.com -s shells.txt
+python3 webshell_scanner.py -u http://example.com -s shelllist.txt 
 ```
 
 Ejemplo con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://example.com -s shells.txt -o found_shells.txt
+python3 webshell_scanner.py -u http://example.com -s shelllist.txt -o found_shelllist.txt 
 ```
 
 Advertencia
