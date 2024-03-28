@@ -1,111 +1,359 @@
+(C)2006,Great.php
+1945.php
+5.1.2.php
+51mp3L.php
+529.php
+AK-74 Security Team Web Shell Beta Version.php
 AK-74 Security Team Web Shell Beta Version.txt	
+Ajax_PHP Command Shell.php
 Ajax_PHP Command Shell.txt	
+Ajax_PHP_Command_Shell.php
+Antichat Shell v1.3.php
 Antichat Shell v1.3.php	
+Antichat Shell. Modified by Go0o$E.php
 Antichat Shell. Modified by Go0o$E.txt	
+Antichat Shell.php
 Antichat Shell.txt	
+Antichat_Shell_v1.3.php
+Ayyildiz Tim  -AYT- Shell v 2.1 Biz.php
 Ayyildiz Tim  -AYT- Shell v 2.1 Biz.txt	
+Ayyildiz Tim -AYT- Shell v 2.1 Biz.php
+C2007Shell v. 1.0 pre-release build #16 Modded by Adora & u9 h4c93r.php
+C99Shell v. 1.0 beta (5.02.2005).php
 C99Shell v. 1.0 beta (5.02.2005).txt	
+C99Shell v. 1.0 pre-release build(safe-mode).php
 C99Shell v. 1.0 pre-release build(safe-mode).txt	
+C99madShell v. 2.0 madnet edition.php
 C99madShell v. 2.0 madnet edition.txt	
+C99madShell v. 3.0 BLOG edition.php
+CTT Shell.php
 CTT Shell.txt	
+CWShellDumper.php
+CasuS 1.5.php
 CasuS 1.5.txt	
+CmdAsp.asp.txt.asp
 CmdAsp.asp.txt.txt	
+Create alfashell3
+Create jsp_shell
+Crystal shell.php
 Crystal shell.txt	
+Crystal.php
 Crystal.txt	
+CrystalShell v.1.php
 CrystalShell v.1.txt	
+Cyber Shell (v 1.0).php
 Cyber Shell (v 1.0).php	
+Cyber Shell.php
 Cyber Shell.txt	
+CyberSpy5.Asp.txt.asp
 CyberSpy5.Asp.txt.txt	
+DTool Pro.php
 DTool Pro.txt	
+Dive Shell 1.0 - Emperor Hacking Team.php
 Dive Shell 1.0 - Emperor Hacking Team.php	
+Dive Shell 1.0 – Emperor Hacking Team.php
+Dive_Shell_1.0_Emperor_Hacking_Team.php
+Dx.php
 Dx.txt	
+DxShell v1.0.php
 DxShell v1.0.txt	
+DxShell.1.0.php
 DxShell.1.0.txt	
+EFSO_2.txt.asp
 EFSO_2.txt.txt	
+ELMALISEKER Backd00r.asp
+Elmaliseker.txt.asp
 Elmaliseker.txt.txt	
+Evilc0der.php
+Execuriton Bypass Exploit.php
+FaTaLisTiCz_Fx.php
+GFS Web-Shell.php
 GFS Web-Shell.txt	
+GFS web-shell ver 3.1.7 - PRiV8.php
 GFS web-shell ver 3.1.7 - PRiV8.txt	
+GFS web-shell ver 3.1.7 – PRiV8.php
+GFS_web-shell_ver_3.1.7_-_PRiV8.php
+GRP WebShell 2.0 release build 2018
+GRP WebShell 2.0 release build 2018 (C)2006,Great.php
 GRP WebShell 2.0 release build 2018 (C)2006,Great.txt	
+Gamma Web Shell Perl-Cgi
+Gamma Web Shell.php
 Gamma Web Shell.txt	
+HTTerminal.php
+JspWebshell 1.2 JSP
+JspWebshell 1.2.php
 JspWebshell 1.2.php	
+JspWebshell_1.2.php
+KA_uShell 0.1.6.php
 KA_uShell 0.1.6.txt	
+KAdot Universal Shell v0.1.6.php
 KAdot Universal Shell v0.1.6.php	
+KAdot_Universal_Shell_v0.1.6.php
+Lite Public Version.php
+Liz0ziM Private Safe Mode Command
+Liz0ziM Private Safe Mode Command Execuriton Bypass Exploit.php
 Liz0ziM Private Safe Mode Command Execuriton Bypass Exploit.php	
+Loaderz WEB Shell.php
 Loaderz WEB Shell.txt	
+Macker's Private PHPShell.php
 Macker's Private PHPShell.php	
+Macker’s Private.phpShell.php
+Moroccan Spamers Ma-EditioN By GhOsT.php
 Moroccan Spamers Ma-EditioN By GhOsT.txt	
+Moroccan_Spamers_Ma-EditioN_By_GhOsT.php
+My friend.php
+MySQL Web Interface Version 0.8.php
 MySQL Web Interface Version 0.8.php	
+MySQL_Web_Interface_Version_0.8.php
+MyShell.php
 MyShell.txt	
+Mysql interface v1.0.php
 Mysql interface v1.0.txt	
+Mysql_interface_v1.0.php
+NCC-Shell.php
 NCC-Shell.txt	
+NFM 1.8.php
 NFM 1.8.txt	
+NGH.php
 NGH.txt	
+NIX REMOTE WEB SHELL.php
 NIX REMOTE WEB SHELL.txt	
+NIX REMOTE WEB-SHELL v.0.5 alpha
+NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version.php
 NIX REMOTE WEB-SHELL v.0.5 alpha Lite Public Version.php	
+NIX_REMOTE_WEB-SHELL_v.0.5_alpha_Lite_Public_Version.php
+NTDaddy v1.9.asp
+NTDaddy v1.9.php
 NTDaddy v1.9.txt	
+NetworkFileManagerPHP.php
 NetworkFileManagerPHP.txt	
+PH Vayv.php
 PH Vayv.txt	
+PHANTASMA.php
 PHANTASMA.txt	
+PHP Shell.php
 PHP Shell.txt	
+PHPJackal.php
 PHPJackal.txt	
+PHPRemoteView.php
+PHVayv.php
 PHVayv.txt	
+PH_Vayv.php
+Perl Web Shell by RST-GHC PL
 Perl Web Shell by RST-GHC.pl	
+PhpSpy Ver 2006 Perl-Cgi
+PhpSpy Ver 2006.php
 PhpSpy Ver 2006.txt	
+Predator.php
 Predator.txt	
+Private-i3lue.php
 Private-i3lue.php	
+R0XEM ShElL.php
 RedhatC99 [login=redhat-pass=root]	
+RedhatC99 [login=redhat-pass=root].php
+RemExp.asp.txt.asp
+Rootshell.v.1.0.php
+STNC WebShell v0.8.php
+Safe0ver Shell -Safe Mod Bypass By
+Safe0ver Shell -Safe Mod Bypass By Evilc0der.php
+Safe_Mode Bypass PHP 4.4.2 and PHP 5.1.2.php
+Safe_Mode Bypass.php 4.4.2 and.php
+Safe_Mode_Bypass_PHP_4.4.2_and_PHP_5.1.2.php
+SimAttacker - Vrsion 1.0.0 - priv8 4 My friend.php
+SimAttacker – Vrsion 1.0.0 – priv8 4
+SimShell 1.0 - Simorgh Security MGZ.php
+SimShell 1.0 – Simorgh Security MGZ.php
+SimShell 1.0 – Simorgh Security MGZs.php
+SimShell_1.0_-_Simorgh_Security_MGZ.php
+Simple_PHP_backdoor_by_DK.php
+Sincap 1.0.php
+Small Web Shell by ZaCo.php
+SnIpEr_SA Shell.php
+SnIpEr_SA_Shell.php
+Uploader.php
+Web-shell (c)ShAnKaR.php
+WinX Shell.php
+Worse Linux Shell.php
+ZyklonShell.php
+aZRaiLPhp v1.0.php
 aZRaiLPhp v1.0.php	
+aZRaiLPhp_v1.0.php
+aa.php
+accept_language.php
 accept_language.txt	
+alfa-obfuscated.php
 alfa3.1.php	
 alfa3.1.txt	
 alfashell3
-Create alfashell3
-b374k-mini-shell-php.php.txt	
-b374k.php.txt	
-backupsql.txt	
-c0derz shell [csh] v. 0.1.1 release.txt	
-c99.txt	
-c99_PSych0.php	
-c99_locus7s.txt	
-c99_madnet.txt	
-c99_w4cking.txt	
-ctt_sh.txt	
-cybershell.txt	
-dC3 Security Crew Shell PRiV.txt	
-gfs_sh.txt	
-go-shell.txt	
-h4ntu shell [powered by tsoi].php	
-hiddens shell v1.txt	
-iMHaBiRLiGi Php FTP.txt	
-iMHaPFtp.txt	
-indexer.asp.txt.txt	
-ironshell.txt	
-jsp_shell
-Create jsp_shell
-klasvayv.asp.txt.txt	
-lamashell.txt	
-load_shell.txt	
-matamu.txt	
-mysql.txt	
-mysql_tool.txt	
-nsTView v2.1.txt	
-nshell.txt	
-nstview.txt	
-pHpINJ.txt	
-php-backdoor.txt	
-php-include-w-shell.txt	
-phpRemoteView.txt	
-pws.txt	
-r57.txt	
-r57_Mohajer22.txt	
-r57_iFX.txt	
-r57_kartal.txt	
-r57shell.txt	
-reader.asp.txt.txt
-webshell.php
 alfav4.1-tesla.php
 alfav4.1-tesla_encode_1.php
+angel.php
+aspx.php
+aspxshell.aspx
+aspydrv.php
+b374k-2.7.php
+b374k-mini-shell-php.php.php
+b374k-mini-shell-php.php.txt	
+b374k-mini-shell.php
+b374k.php
+b374k.php.php
+b374k.php.txt	
+backupsql.php
+backupsql.txt	
+beyaz_hacker.php
+c0derz shell [csh] v. 0.1.1 release.php
+c0derz shell [csh] v. 0.1.1 release.txt	
+c100.php
+c99.php
+c99.txt	
+c99_PSych0.php
+c99_PSych0.php	
+c99_locus7s.php
+c99_locus7s.txt	
+c99_madnet.php
+c99_madnet.txt	
+c99_w4cking.php
+c99_w4cking.txt	
 c99shell.php
-51mp3L.php
-alfa-obfuscated.php
+c99unlimited.php
+cfexec.cfm
+cgi.php
+cgitelnet.php
+cmd-asp-5.1.asp
+cmd.jsp
+cmd.php
+cmdasp.asp
+cmdasp.aspx
+cmdjsp.jsp
+cpanel.php
+ctt_sh.php
+ctt_sh.txt	
+cw.php
+cybershell.php
+cybershell.txt	
+dC3 Security Crew Shell PRiV.php
+dC3 Security Crew Shell PRiV.txt	
+dC3_Security_Crew_Shell_PRiV.php
+dq.php
+ekin0x.php
+erne.php
+ex0shell.php
+fatal.php
+ftpsearch.php
+funcinc.php
+g00nshell-v1.3.php
+g3.php
+gfs_sh.php
+gfs_sh.txt	
+go-shell Perl-Cgi
+go-shell.php
+go-shell.txt	
+h4ntu shell [powered by tsoi].php
+h4ntu shell [powered by tsoi].php	
+h4ntu_shell_[powered_by_tsoi].php
+haccess.php
+hiddens shell v1.php
+hiddens shell v1.txt	
+hxpshell.php
+iMHaBiRLiGi Php FTP.php
+iMHaBiRLiGi Php FTP.txt	
+iMHaBiRLiGi.php FTP.php
+iMHaPFtp.php
+iMHaPFtp.txt	
+indexer.asp.txt.asp
+indexer.asp.txt.txt	
+ironshell.php
+ironshell.txt	
+jsp-reverse.jsp
+jsp_shell
+kacak.php
+klasvayv.asp.txt.asp
+klasvayv.asp.txt.txt	
+kral.php
+lamashell.php
+lamashell.txt	
+links.php
+liz0zim.php
+load_shell.php
+load_shell.txt	
+login.php
+lolipop.php
+lostDC.php
+magiccoder.php
+matamu.php
+matamu.txt	
+megabor.php
+micro.php
+myshell.php
+mysql.php
+mysql.txt	
+mysql_tool.php
+mysql_tool.txt	
+nsTView v2.1.php
+nsTView v2.1.txt	
+nshell.php
+nshell.txt	
+nst.php
+nstview.php
+nstview.txt	
+p0wny_shell.php
+pHpINJ.php
+pHpINJ.txt	
+php-backdoor.php
+php-backdoor.txt	
+php-findsock-shell.php
+php-include-w-shell.php
+php-include-w-shell.txt	
+php-reverse-shell.php
+phpRemoteView.php
+phpRemoteView.txt	
+pico_shell.php
+pws.php
+pws.txt	
+qsd-php-backdoor.php
+r00t.php
+r57.php
+r57.txt	
+r57_Mohajer22.php
+r57_Mohajer22.txt	
+r57_iFX.php
+r57_iFX.txt	
+r57_kartal.php
+r57_kartal.txt	
+r57shell.php
+r57shell.txt	
+r57shell1.40.php
+r57shell2.0.php
+reader.asp.txt.asp
+reader.asp.txt.txt
+robots.php
+rootshell.php
+ru24_post_sh.php
+s1.php
+s2.php
+s72 Shell v1.1 Coding.php
+s72_Shell_v1.1_Coding.php
+sa.php
+sadrazam.php
+safe0ver.php
+shell.aspx
+shellzx.php
+simattacker.php
+simple-backdoor.php
+simple_cmd.php
+small.php
+soldierofallah.php
+sosyete.php
+spygrup.php
+stres.php
+toolaspshell.php
+tryag.php
+tshell.php
+webshell.php
+wordpress_shell.php
+wow.php
 wso.php
+zaco.php
+zacosmall.php
+zehir4.asp.txt.asp
+zehir4.php
