@@ -2,11 +2,17 @@
 
 # Webshell Scanner
 
-Descripci√≥n
-Este script en Python es un esc√°ner de webshells que se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
+## :information_source: DescripciÛn
+Este script en Python es un esc·ner de webshells que se encarga de identificar 
+la presencia de webshells en un sitio web dado. Utiliza una lista de nombres 
+de archivos comunes asociados con webshells y realiza solicitudes HTTP para 
+verificar su existencia en el sitio web objetivo. Una vez encontradas, 
+muestra las URL de las webshells encontradas.
 
-## :book: Instalaci√≥n
-1. Clona este repositorio en tu m√°quina:
+## :arrow_down: Instalacion
+
+1. Clona este repositorio en tu m·quina:
+
     ```python
     git clone https://github.com/JennValentine/Webshell_Scanner.git
     ```
@@ -15,11 +21,11 @@ Este script en Python es un esc√°ner de webshells que se encarga de identificar 
     cd Webshell_Scanner
     ```
 
-## :book: Modo de Uso
+## :hammer: Modo de Uso
 
-Ejecuta el script con la siguiente sintaxis:
+Ejecutar el script con la siguiente sintaxis:
 
-```python
+```python3
 python3 webshell_scanner.py -u URL -s WORDLIST_FILE [-o OUTPUT_FILE]
 ```
 
@@ -27,21 +33,28 @@ python3 webshell_scanner.py -u URL -s WORDLIST_FILE [-o OUTPUT_FILE]
 * -s o --shell: Especifica la ruta al archivo que contiene una lista de nombres de archivos de webshells.
 * -o o --output (opcional): Permite guardar la salida en un archivo.
 
-Ejemplo de Uso
-Ejemplo b√°sico:
+Ejemplo de uso b·sico:
 
 ```python
-python3 webshell_scanner.py -u http://example.com -s shelllist.txt 
+python3 webshell_scanner.py -u http://example.com -s shelllist.txt
 ```
 
 Ejemplo con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://example.com -s shelllist.txt -o found_shelllist.txt 
+python3 webshell_scanner.py -u http://example.com -s shelllist.txt -o found_shells.txt
 ```
 
-Advertencia
-Este script realiza solicitudes HTTP para verificar la existencia de webshells en un sitio web. √ösalo con precauci√≥n y aseg√∫rate de tener permiso para escanear el sitio web objetivo.
+## :busstop: Ayuda 
 
-## :octocat: Cr√©ditos
+Ejecutar el script con argumentos -h o --help:
+
+```bash
+python3 webshell_scanner.py -h
+```
+
+:bookmark_tabs: Este script realiza solicitudes HTTP para verificar la existencia de webshells en un sitio web. 
+⁄salo con precauciÛn y aseg˙rate de tener permiso para escanear el sitio web objetivo.
+
+## :octocat: CrÈditos
 1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
