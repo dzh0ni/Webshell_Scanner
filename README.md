@@ -1,4 +1,4 @@
-![logo](https://edteam-media.s3.amazonaws.com/blogs/big/2ab53939-9b50-47dd-b56e-38d4ba3cc0f0.png)
+![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
 # Webshell Scanner
 
@@ -52,7 +52,7 @@ python3 webshell_scanner.py -u http://example.com -s shelllist.txt -o found_shel
 
 ## :busstop: Ayuda 
 
-Ejecutar el script con argumentos -h o --help para desplegar la ayauda de argumentos:
+Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
 
 ```python
 python3 webshell_scanner.py -h
