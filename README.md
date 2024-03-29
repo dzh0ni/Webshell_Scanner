@@ -21,6 +21,10 @@ muestra las URL de las webshells encontradas.
     cd Webshell_Scanner
     python3 -m pip install -r requirements.txt
     ```
+3. Instalación de requerimientos:
+    ```python3
+    python3 -m pip install -r requirements.txt
+    ```
 
 ## :hammer: Modo de Uso
 
@@ -48,12 +52,13 @@ python3 webshell_scanner.py -u http://example.com -s shelllist.txt -o found_shel
 
 ## :busstop: Ayuda 
 
-Ejecutar el script con argumentos -h o --help:
+Ejecutar el script con argumentos -h o --help para desplegar la ayauda de argumentos:
 
 ```python
 python3 webshell_scanner.py -h
 ```
 
+---------------------------------------------------------------------------------------
 ```python
 usage: webshell_scanner.py [-h] -u URL -s SHELL [-o output_file]
 
@@ -67,6 +72,7 @@ options:
   -o output_file, --output output_file
                         Guardar la salida en un archivo
 ```
+---------------------------------------------------------------------------------------
 
 :bookmark_tabs: Este script realiza solicitudes HTTP para verificar la existencia de webshells en un sitio web. 
 Úsalo con precaución y asegúrate de tener permiso para escanear el sitio web objetivo.
