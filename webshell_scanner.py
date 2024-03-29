@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+#====================================================
+#   SCRIPT:                   WEBSHELL SCANNER
+#   DESARROLLADO POR:         JENN VALENTINE 
+#   FECHA DE ACTUALIZACIÓN:   29-03-2024 
+#   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
+#   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
+#====================================================
 import argparse
 import requests
 from urllib.parse import urljoin
@@ -11,11 +18,19 @@ BOLD = '\033[1m'
 GREEN = '\033[92m'
 RED = '\033[91m'
 YELLOW = '\033[93m'
+BLUE = '\033[94m'
+MAGENTA = '\033[95m'
+CYAN = '\033[96m'
+WHITE = '\033[97m'
+
 
 # Iconos
 CHECKMARK = '[+]'
 ERROR = '[-]'
 INFO = '[*]'
+PROCESS = '>>'
+
+credits="${magenta}[>>]${reset}"
 
 # Barra de separación
 bar = f"{YELLOW}{'-' * 45}{RESET}"
@@ -40,7 +55,7 @@ def main():
     # Mostramos el encabezado similar a Dirb
     print(f"\n{bar}")
     print(f"{BOLD}WEBSHELL SCANNER v2.22{RESET}")
-    print(f"{BOLD}By The MR-X{RESET}")
+    print(f"{BOLD}By JENN VALENTINE {RESET}")
     print(f"{bar}\n")
     print(f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}")
     print(f"URL_BASE: {args.url}")
@@ -58,7 +73,7 @@ def main():
         shell_path = check_shell(args.url, shell)
         if shell_path:
             found_shells.append(shell_path)
-            print(f"{GREEN}{CHECKMARK} {shell_path}{RESET}")
+            print(f"{MAGENTA}{PROCESS} {shell_path}{RESET}")
 
     # Mostramos la barra de separación nuevamente
     print(f"\n{bar}")
@@ -72,6 +87,9 @@ def main():
     print(f"\n{BOLD}Total de shells escaneadas:{RESET} {len(shells)}")
     print(f"{BOLD}Shells encontradas:{RESET} {len(found_shells)}")
     print(f"{BOLD}Shells no encontradas:{RESET} {len(shells) - len(found_shells)}")
+
+    print(f"\n{YELLOW}{INFO} GITHUB OFICIAL: {GREEN}https://github.com/JennValentine/Webshell_Scanner{RESET}")
+
     print(f"\n{bar}")
 
     # Guardamos la salida en un archivo si se especifica la opción -o
