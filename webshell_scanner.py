@@ -30,8 +30,6 @@ ERROR = '[-]'
 INFO = '[*]'
 PROCESS = '>>'
 
-credits="${magenta}[>>]${reset}"
-
 # Barra de separación
 bar = f"{YELLOW}{'-' * 45}{RESET}"
 
