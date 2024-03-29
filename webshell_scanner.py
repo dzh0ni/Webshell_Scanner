@@ -2,7 +2,7 @@
 #====================================================
 #   SCRIPT:                   WEBSHELL SCANNER
 #   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACIÓN:   29-03-2024 
+#   FECHA DE ACTUALIZACIÃ“N:   29-03-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
 #====================================================
@@ -30,7 +30,7 @@ ERROR = '[-]'
 INFO = '[*]'
 PROCESS = '>>'
 
-# Barra de separación
+# Barra de separaciÃ³n
 bar = f"{YELLOW}{'-' * 45}{RESET}"
 
 def check_shell(url, shell):
@@ -43,7 +43,7 @@ def check_shell(url, shell):
         pass
 
 def main():
-    # Configuración del analizador de argumentos
+    # ConfiguraciÃ³n del analizador de argumentos
     parser = argparse.ArgumentParser(description="Webshell Scanner")
     parser.add_argument("-u", "--url", help="URL del sitio web objetivo", required=True)
     parser.add_argument("-s", "--shell", help="Ruta del archivo que contiene la lista de nombres de shell", required=True)
@@ -73,7 +73,7 @@ def main():
             found_shells.append(shell_path)
             print(f"{MAGENTA}{PROCESS} {shell_path}{RESET}")
 
-    # Mostramos la barra de separación nuevamente
+    # Mostramos la barra de separaciÃ³n nuevamente
     print(f"\n{bar}")
 
     # Mostramos las shells encontradas
@@ -81,7 +81,7 @@ def main():
     for path in found_shells:
         print(f"{GREEN}{INFO} {path}{RESET}")
 
-    # Mostramos estadísticas finales
+    # Mostramos estadÃ­sticas finales
     print(f"\n{BOLD}Total de shells escaneadas:{RESET} {len(shells)}")
     print(f"{BOLD}Shells encontradas:{RESET} {len(found_shells)}")
     print(f"{BOLD}Shells no encontradas:{RESET} {len(shells) - len(found_shells)}")
@@ -90,7 +90,7 @@ def main():
 
     print(f"\n{bar}")
 
-    # Guardamos la salida en un archivo si se especifica la opción -o
+    # Guardamos la salida en un archivo si se especifica la opciÃ³n -o
     if args.output:
         with open(args.output, "w") as output_file:
             for path in found_shells:
