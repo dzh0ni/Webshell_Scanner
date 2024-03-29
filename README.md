@@ -19,7 +19,6 @@ muestra las URL de las webshells encontradas.
 2. Navega al directorio del repositorio:
     ```python3
     cd Webshell_Scanner
-    python3 -m pip install -r requirements.txt
     ```
 3. Instalación de requerimientos:
     ```python3
