@@ -357,3 +357,4 @@ zaco.php
 zacosmall.php
 zehir4.asp.txt.asp
 zehir4.php
+shell.php
