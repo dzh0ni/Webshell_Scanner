@@ -52,7 +52,7 @@ def main():
 
     # Mostramos el encabezado similar a Dirb
     print(f"\n{bar}")
-    print(f"{BOLD}WEBSHELL SCANNER v2.22{RESET}")
+    print(f"{BOLD}WEBSHELL SCANNER v1.00{RESET}")
     print(f"{BOLD}By JENN VALENTINE {RESET}")
     print(f"{bar}\n")
     print(f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}")
