@@ -2,7 +2,7 @@
 #====================================================
 #   SCRIPT:                   WEBSHELL SCANNER
 #   DESARROLLADO POR:         JENN VALENTINE 
-#   FECHA DE ACTUALIZACIÃ“N:   29-03-2024 
+#   FECHA DE ACTUALIZACIÃ“N:  29-03-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
 #====================================================
@@ -12,26 +12,46 @@ from urllib.parse import urljoin
 from tqdm import tqdm
 from datetime import datetime
 
-# Colores
-RESET = '\033[0m'
-BOLD = '\033[1m'
-GREEN = '\033[92m'
-RED = '\033[91m'
-YELLOW = '\033[93m'
-BLUE = '\033[94m'
-MAGENTA = '\033[95m'
-CYAN = '\033[96m'
-WHITE = '\033[97m'
+# Paleta de colores
+reset = "\033[0m"       # Restablecer todos los estilos y colores
+bold = "\033[1m"        # Texto en negrita
+italic = "\033[3m"      # Texto en cursiva
+underline = "\033[4m"   # Texto subrayado
+blink = "\033[5m"       # Texto parpadeante
+reverse = "\033[7m"     # Invertir colores de fondo y texto
+hidden = "\033[8m"      # Texto oculto (generalmente invisible)
 
+# Colores de texto
+black = "\033[0;30m"     # Negro
+red = "\033[0;31m"       # Rojo
+green = "\033[0;32m"     # Verde
+yellow = "\033[0;33m"    # Amarillo
+blue = "\033[0;34m"      # Azul
+magenta = "\033[0;35m"   # magenta
+cyan = "\033[0;36m"      # Cian
+white = "\033[0;37m"     # Blanco
+
+# Colores de fondo
+bg_black = "\033[0;40m"     # Fondo Negro
+bg_red = "\033[0;41m"       # Fondo Rojo
+bg_green = "\033[0;42m"     # Fondo Verde
+bg_yellow = "\033[0;43m"    # Fondo Amarillo
+bg_blue = "\033[0;44m"      # Fondo Azul
+bg_magenta = "\033[0;45m"   # Fondo magenta
+bg_cyan = "\033[0;46m"      # Fondo Cian
+bg_white = "\033[0;47m"     # Fondo Blanco
 
 # Iconos
-CHECKMARK = '[+]'
-ERROR = '[-]'
-INFO = '[*]'
-PROCESS = '>>'
+checkmark = f"{green}[++]{reset}"
+error = f"{red}[--]{reset}"
+info = f"{yellow}[**]{reset}"
+process = f"{magenta}[>>]{reset}"
+indicator = f"{red}==>{reset}"
 
-# Barra de separaciÃ³n
-bar = f"{YELLOW}{'-' * 45}{RESET}"
+
+# Barra de separación
+barra = f"{blue}|--------------------------------------------|{reset}"
+bar = f"{yellow}{'-' * 45}{reset}"
 
 def check_shell(url, shell):
     target_url = urljoin(url, shell)
@@ -43,7 +63,7 @@ def check_shell(url, shell):
         pass
 
 def main():
-    # ConfiguraciÃ³n del analizador de argumentos
+    # Configuración del analizador de argumentos
     parser = argparse.ArgumentParser(description="Webshell Scanner")
     parser.add_argument("-u", "--url", help="URL del sitio web objetivo", required=True)
     parser.add_argument("-s", "--shell", help="Ruta del archivo que contiene la lista de nombres de shell", required=True)
@@ -52,8 +72,8 @@ def main():
 
     # Mostramos el encabezado similar a Dirb
     print(f"\n{bar}")
-    print(f"{BOLD}WEBSHELL SCANNER v1.00{RESET}")
-    print(f"{BOLD}By JENN VALENTINE {RESET}")
+    print(f"{bold}WEBSHELL SCANNER v1.00{reset}")
+    print(f"{bold}By JENN VALENTINE {reset}")
     print(f"{bar}\n")
     print(f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}")
     print(f"URL_BASE: {args.url}")
@@ -71,22 +91,22 @@ def main():
         shell_path = check_shell(args.url, shell)
         if shell_path:
             found_shells.append(shell_path)
-            print(f"{MAGENTA}{PROCESS} {shell_path}{RESET}")
+            print(f"{magenta}{process} {shell_path}{reset}")
 
     # Mostramos la barra de separaciÃ³n nuevamente
     print(f"\n{bar}")
 
     # Mostramos las shells encontradas
-    print(f"\n{BOLD}Shells encontradas:{RESET}\n")
+    print(f"\n{bold}Shells encontradas:{reset}\n")
     for path in found_shells:
-        print(f"{GREEN}{INFO} {path}{RESET}")
+        print(f"{green}{info} {path}{reset}")
 
-    # Mostramos estadÃ­sticas finales
-    print(f"\n{BOLD}Total de shells escaneadas:{RESET} {len(shells)}")
-    print(f"{BOLD}Shells encontradas:{RESET} {len(found_shells)}")
-    print(f"{BOLD}Shells no encontradas:{RESET} {len(shells) - len(found_shells)}")
+    # Mostramos estadísticas finales
+    print(f"\n{bold}Total de shells escaneadas:{reset} {len(shells)}")
+    print(f"{bold}Shells encontradas:{reset} {len(found_shells)}")
+    print(f"{bold}Shells no encontradas:{reset} {len(shells) - len(found_shells)}")
 
-    print(f"\n{YELLOW}{INFO} GITHUB OFICIAL: {GREEN}https://github.com/JennValentine/Webshell_Scanner{RESET}")
+    print(f"\n{yellow}{info} GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
 
     print(f"\n{bar}")
 
