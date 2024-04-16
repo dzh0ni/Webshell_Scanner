@@ -45,7 +45,7 @@ Argumentos:
 
 ## :hammer: Modo de Uso para webshell scanner
 
-Para utilizar el escáner de webshells, ejecuta el script webshell_scanner.py desde la línea de comandos con los parámetros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
+Para utilizar el webshell scanner, ejecuta el script webshell_scanner.py desde la línea de comandos con los parámetros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
 
 Ejemplo de uso:
 
@@ -75,7 +75,7 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directori
 
 ## :hammer: Modo de Uso para dirb script
 
-Para utilizar el script Dirb, ejecuta el script dirb_script.py desde la línea de comandos con la URL del sitio web que deseas escanear como único argumento.
+Para utilizar el script Dirb, ejecuta el script dirb script desde la línea de comandos con la URL del sitio web que deseas escanear como único argumento.
 
 Ejemplo de uso:
 
