@@ -24,19 +24,28 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
     ```python
     python3 -m pip install -r requirements.txt
     ```
-## :hammer: Modo de Uso
 
-Ejecutar el script con la siguiente sintaxis:
+## :busstop: Ayuda 
+
+Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
 
 ```python
-webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+python3 webshell_scanner.py -h
 ```
+```
+webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+
 Argumentos:
 
 * -u URL, --url URL: Especifica la URL del sitio web objetivo.
 * -s SHELL_FILE, --shell SHELL_FILE: Especifica la ruta del archivo que contiene la lista de nombres de shell.
 * -d DIRECTORIES_FILE, --directories DIRECTORIES_FILE: (Opcional) Especifica la ruta del archivo que contiene los directorios a escanear en busca de shells.
 * -o OUTPUT_FILE, --output OUTPUT_FILE: (Opcional) Guarda la salida en un archivo.
+```
+
+## :hammer: Modo de Uso para webshell scanner
+
+Para utilizar el escáner de webshells, ejecuta el script webshell_scanner.py desde la línea de comandos con los parámetros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
 
 Ejemplo de uso:
 
@@ -52,44 +61,30 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -o found_she
 
 Ejemplo de uso con directorios guardados por 'dirb script':
 ```python
-python3 webshell_scanner.py -u http://192.168.19.171/ -s shelllist.txt -d directorios_encontrados.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt
 ```
 
 Ejemplo de uso con directorios guardados por 'dirb script' con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://192.168.19.171/ -s shelllist.txt -d directorios_encontrados.txt -o found_shells.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt -o found_shells.txt
 ```
 ![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
-## :busstop: Ayuda 
+:bookmark_tabs: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
 
-Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
+## :hammer: Modo de Uso para dirb script
+
+Para utilizar el script Dirb, ejecuta el script dirb_script.py desde la línea de comandos con la URL del sitio web que deseas escanear como único argumento.
+
+Ejemplo de uso:
 
 ```python
-python3 webshell_scanner.py -h
+python3 dirb_script.py http://example.com/
 ```
----------------------------------------------------------------------------------------
-```python                                
-sage: webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
 
-Webshell Scanner
-
-options:
-  -h, --help            show this help message and exit
-  -u URL, --url URL     URL del sitio web objetivo
-  -s SHELL, --shell SHELL
-                        Ruta del archivo que contiene la lista de nombres de shell
-  -d DIRECTORIES, --directories DIRECTORIES
-                        Ruta del archivo que contiene los directorios a escanear
-  -o output_file, --output output_file
-                        Guardar la salida en un archivo
-
-```
----------------------------------------------------------------------------------------
-
-:bookmark_tabs: Este script realiza solicitudes HTTP para verificar la existencia de webshells en un sitio web. 
-Úsalo con precaución y asegúrate de tener permiso para escanear el sitio web objetivo.
+:bookmark_tabs: El Dirb script se utiliza para realizar un escaneo de directorios en una URL especificada. Utiliza la herramienta Dirb para realizar el escaneo y captura los directorios y archivos encontrados durante el proceso. Los resultados se guardan en archivos de texto para su posterior análisis.
 
 ## :octocat: Créditos
 1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
