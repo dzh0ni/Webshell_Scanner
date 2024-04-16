@@ -6,11 +6,15 @@
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
 #====================================================
-import argparse
-import requests
-from urllib.parse import urljoin
-from tqdm import tqdm
-from datetime import datetime
+
+# Importación de módulos necesarios
+import argparse  # Para analizar los argumentos de la línea de comandos
+import requests  # Para realizar solicitudes HTTP
+import re  # Para trabajar con expresiones regulares
+from urllib.parse import urljoin  # Para unir URL
+from tqdm import tqdm  # Para mostrar una barra de progreso
+from datetime import datetime  # Para obtener la fecha y hora actual
+import sys  # Para manejar la interrupción de Ctrl + C
 
 # Paleta de colores
 reset = "\033[0m"       # Restablecer todos los estilos y colores
@@ -48,11 +52,11 @@ info = f"{yellow}[**]{reset}"
 process = f"{magenta}[>>]{reset}"
 indicator = f"{red}==>{reset}"
 
-
 # Barra de separación
 barra = f"{blue}|--------------------------------------------|{reset}"
 bar = f"{yellow}{'-' * 45}{reset}"
 
+# Función para verificar la existencia de una shell en una URL
 def check_shell(url, shell):
     target_url = urljoin(url, shell)
     try:
@@ -62,59 +66,88 @@ def check_shell(url, shell):
     except requests.exceptions.RequestException:
         pass
 
+# Función principal
 def main():
-    # Configuración del analizador de argumentos
     parser = argparse.ArgumentParser(description="Webshell Scanner")
     parser.add_argument("-u", "--url", help="URL del sitio web objetivo", required=True)
     parser.add_argument("-s", "--shell", help="Ruta del archivo que contiene la lista de nombres de shell", required=True)
+    parser.add_argument("-d", "--directories", help="Ruta del archivo que contiene los directorios a escanear", default=None)
     parser.add_argument("-o", "--output", help="Guardar la salida en un archivo", metavar="output_file")
     args = parser.parse_args()
 
-    # Mostramos el encabezado similar a Dirb
+    # Mostrar información sobre la ejecución del script
     print(f"\n{bar}")
     print(f"{bold}WEBSHELL SCANNER v1.00{reset}")
     print(f"{bold}By JENN VALENTINE {reset}")
     print(f"{bar}\n")
     print(f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}")
     print(f"URL_BASE: {args.url}")
-    print(f"WORDLIST_FILES: {args.shell}\n")
+    print(f"WORDLIST_FILES: {args.shell}")
+    if args.directories:
+        print(f"DIRECTORIES_FILE: {args.directories}\n")
+    else:
+        print(f"DIRECTORIES_FILE: (No se proporcionó)\n")
     print(f"{bar}\n")
 
-    # Leemos la lista de nombres de shell desde el archivo
+    found_shells = []  # Lista para almacenar las URL de las shells encontradas
+
+    # Leer la lista de nombres de shell desde el archivo
     with open(args.shell, "r") as shell_file:
         shells = shell_file.read().splitlines()
-
-    found_shells = []  # Lista para almacenar las URL de las shells encontradas
 
     # Escaneo de las shells con una barra de progreso
     for shell in tqdm(shells, desc="Escaneando", unit="shells"):
         shell_path = check_shell(args.url, shell)
         if shell_path:
             found_shells.append(shell_path)
-            print(f"{magenta}{process} {shell_path}{reset}")
+            print(f"{process} {white}{shell_path}{reset}")
 
-    # Mostramos la barra de separaciÃ³n nuevamente
+    # Leer la lista de rutas guardadas en el archivo directorios_encontrados.txt
+    if args.directories:
+        with open(args.directories, "r") as dir_file:
+            dirs = dir_file.read().splitlines()
+
+        # Escaneo de las shells en los directorios
+        for directory in dirs:
+            dir_url = urljoin(args.url, directory)
+            try:
+                response = requests.get(dir_url)
+                if response.status_code == 200:
+                    dir_content = response.text
+                    for shell in shells:
+                        if shell in dir_content:
+                            found_shells.append(urljoin(args.url, directory + "/" + shell))
+                            print(f"{process} {white}{urljoin(args.url, directory + '/' + shell)}{reset}")
+            except requests.exceptions.RequestException:
+                pass
+
+    # Mostrar la barra de separación nuevamente
     print(f"\n{bar}")
 
-    # Mostramos las shells encontradas
+    # Mostrar las shells encontradas
     print(f"\n{bold}Shells encontradas:{reset}\n")
     for path in found_shells:
-        print(f"{green}{info} {path}{reset}")
+        path = re.sub(r'(http://[^/]+)/+', r'\1/', path)  # Reemplazar barras dobles después de http:// con una sola barra
+        print(f"{green}{indicator} {path}{reset}")
 
-    # Mostramos estadísticas finales
+    # Mostrar estadísticas finales
     print(f"\n{bold}Total de shells escaneadas:{reset} {len(shells)}")
     print(f"{bold}Shells encontradas:{reset} {len(found_shells)}")
     print(f"{bold}Shells no encontradas:{reset} {len(shells) - len(found_shells)}")
 
-    print(f"\n{yellow}{info} GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
+    print(f"\n{info} {white}GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner\n{reset}")
 
     print(f"\n{bar}")
 
-    # Guardamos la salida en un archivo si se especifica la opciÃ³n -o
+    # Guardar la salida en un archivo si se especifica la opción -o
     if args.output:
         with open(args.output, "w") as output_file:
             for path in found_shells:
                 output_file.write(f"{path}\n")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print(f"\n\n{error} KeyboardInterrupt Operación cancelada. Saliendo del programa...")
+        sys.exit(0)
