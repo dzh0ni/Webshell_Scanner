@@ -10,7 +10,7 @@ verificar su existencia en el sitio web objetivo. Una vez encontradas,
 muestra las URL de las webshells encontradas, ademas cuenta con una herramienta 
 complementaria un script para realizar un escaneo de directorios utilizando Dirb.
 
-## :arrow_down: Instalacion
+## :computer: Instalación
 
 1. Clona este repositorio en tu máquina:
     ```python
@@ -25,7 +25,7 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
     python3 -m pip install -r requirements.txt
     ```
 
-## :busstop: Ayuda 
+## :sos: Ayuda 
 
 Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
 
@@ -43,7 +43,7 @@ Argumentos:
 * -o OUTPUT_FILE, --output OUTPUT_FILE: (Opcional) Guarda la salida en un archivo.
 ```
 
-## :hammer: Modo de Uso para webshell scanner
+## :rocket: Modo de Uso para webshell scanner
 
 Para utilizar el webshell scanner, ejecuta el script webshell_scanner.py desde la línea de comandos con los parámetros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
 
@@ -71,9 +71,9 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directori
 ```
 ![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
-:bookmark_tabs: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
+:memo: Notas: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
 
-## :hammer: Modo de Uso para dirb script
+## :rocket: Modo de Uso para dirb script
 
 Para utilizar el dirb script, ejecuta el script dirb script desde la línea de comandos con la URL del sitio web que deseas escanear como único argumento.
 
@@ -84,7 +84,7 @@ python3 dirb_script.py http://example.com/
 ```
 ![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
 
-:bookmark_tabs: El dirb script se utiliza para realizar un escaneo de directorios en una URL especificada. Utiliza la herramienta Dirb para realizar el escaneo y captura los directorios y archivos encontrados durante el proceso. Los resultados se guardan en archivos de texto para su posterior análisis.
+:memo: Notas: El dirb script se utiliza para realizar un escaneo de directorios en una URL especificada. Utiliza la herramienta Dirb para realizar el escaneo y captura los directorios y archivos encontrados durante el proceso. Los resultados se guardan en archivos de texto para su posterior análisis.
 
-## :octocat: Créditos
-1. [Jenn Valentine](https://t.me/JennValentine) - Update Contributor
+## :email: Contacto
+* :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Update Contributor :octocat:
