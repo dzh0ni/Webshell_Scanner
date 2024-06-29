@@ -14,7 +14,7 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
 
 1. Clona este repositorio en tu máquina:
     ```python
-    sudo git clone https://github.com/JennValentine/Webshell_Scanner.git
+    git clone https://github.com/JennValentine/Webshell_Scanner.git
     ```
 2. Navega al directorio del repositorio:
     ```python
