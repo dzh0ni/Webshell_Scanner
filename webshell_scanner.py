@@ -31,7 +31,7 @@ red = "\033[0;31m"       # Rojo
 green = "\033[0;32m"     # Verde
 yellow = "\033[0;33m"    # Amarillo
 blue = "\033[0;34m"      # Azul
-magenta = "\033[0;35m"   # magenta
+magenta = "\033[0;35m"   # Magenta
 cyan = "\033[0;36m"      # Cian
 white = "\033[0;37m"     # Blanco
 
@@ -41,15 +41,16 @@ bg_red = "\033[0;41m"       # Fondo Rojo
 bg_green = "\033[0;42m"     # Fondo Verde
 bg_yellow = "\033[0;43m"    # Fondo Amarillo
 bg_blue = "\033[0;44m"      # Fondo Azul
-bg_magenta = "\033[0;45m"   # Fondo magenta
+bg_magenta = "\033[0;45m"   # Fondo Magenta
 bg_cyan = "\033[0;46m"      # Fondo Cian
 bg_white = "\033[0;47m"     # Fondo Blanco
 
-# Iconos
-checkmark = f"{green}[++]{reset}"
-error = f"{red}[--]{reset}"
-info = f"{yellow}[**]{reset}"
-process = f"{magenta}[>>]{reset}"
+# Iconos v3
+checkmark = f"{white}[{green}++{white}]{green}"
+error = f"{white}[{red}--{white}]{reset}"
+info = f"{white}[{yellow}**{white}]{white}"
+unknown = f"{white}[{blue}!!{white}]{reset}"
+process = f"{white}[{magenta}>>{white}]{magenta}"
 indicator = f"{red}==>{reset}"
 
 # Barra de separación
@@ -131,11 +132,11 @@ def main():
         print(f"{green}{indicator} {path}{reset}")
 
     # Mostrar estadísticas finales
-    print(f"\n{bold}Total de shells escaneadas:{reset} {len(shells)}")
+    print(f"\n{bold}Total de shells en base de datos:{reset} {len(shells)}")
     print(f"{bold}Shells encontradas:{reset} {len(found_shells)}")
     print(f"{bold}Shells no encontradas:{reset} {len(shells) - len(found_shells)}")
 
-    print(f"\n{info} {white}GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner\n{reset}")
+    print(f"\n{info} {white}GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
 
     print(f"\n{bar}")
 
