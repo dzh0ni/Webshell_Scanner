@@ -25,6 +25,11 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
     python3 -m pip install -r requirements.txt
     ```
 
+## :computer: Instalación en una Línea
+```bash
+wget https://raw.githubusercontent.com/JennValentine/Ping-TTL/main/Webshell_Scanner; sudo chmod +x install.sh; sudo ./install.sh
+```
+
 ## :sos: Ayuda 
 
 Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
