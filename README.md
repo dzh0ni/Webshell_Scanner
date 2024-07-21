@@ -27,7 +27,7 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
 
 ## :computer: Instalación en una Línea
 ```bash
-wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh; sudo chmod +x install.sh; sudo ./install.sh
+wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh; sudo chmod +x install.sh; sudo ./install.sh; sudo rm -rf install.sh
 ```
 
 ## :sos: Ayuda 
