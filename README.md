@@ -22,7 +22,7 @@ This Python script is a webshell scanner that identifies the presence of webshel
 
 ## :computer: One-Line Installation
 ```bash
-wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh; sudo chmod +x install.sh; sudo ./install.sh; sudo rm -rf install.sh
+wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh && sudo chmod +x install.sh && sudo ./install.sh && sudo rm -rf install.sh
 ```
 
 ## :sos: Help
@@ -34,7 +34,7 @@ python3 webshell_scanner.py -h
 ```
 
 ```
-webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file] -t 100
 
 Arguments:
 
@@ -73,7 +73,7 @@ Example usage with directories saved by the 'dirb script' and output file:
 python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directories_found.txt -o found_shells.txt
 ```
 
-![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Images/webshell_scanner.jpg)
+![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
 :memo: Notes: The webshell scanner identifies the presence of webshells on a given website. It uses a list of common webshell file names and makes HTTP requests to check their existence on the target website. Once found, it displays the URLs of the detected webshells.
 
@@ -87,7 +87,7 @@ Example usage:
 python3 dirb_script.py http://example.com/
 ```
 
-![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Images/dirb_script.jpg)
+![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
 
 :memo: Notes: The Dirb script is used to perform directory scanning on a specified URL. It uses the Dirb tool to perform the scan and captures the directories and files found during the process. The results are saved in text files for further analysis.
 
