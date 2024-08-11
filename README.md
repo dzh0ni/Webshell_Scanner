@@ -2,94 +2,97 @@
 
 # Webshell Scanner
 
-## :information_source: DescripciÛn
-Este script en Python es un esc·ner de webshells que se encarga de identificar 
-la presencia de webshells en un sitio web dado. Utiliza una lista de nombres 
-de archivos comunes asociados con webshells y realiza solicitudes HTTP para 
-verificar su existencia en el sitio web objetivo. Una vez encontradas, 
-muestra las URL de las webshells encontradas, ademas cuenta con una herramienta 
-complementaria un script para realizar un escaneo de directorios utilizando Dirb.
+## :information_source: Description
+This Python script is a webshell scanner that identifies the presence of webshells on a given website. It uses a list of common webshell file names and makes HTTP requests to check their existence on the target website. Once found, it displays the URLs of the detected webshells. Additionally, it includes a complementary tool, a script for directory scanning using Dirb.
 
-## :computer: InstalaciÛn
+## :computer: Installation
 
-1. Clona este repositorio en tu m·quina:
-    ```python
+1. Clone this repository to your machine:
+    ```bash
     git clone https://github.com/JennValentine/Webshell_Scanner.git
     ```
-2. Navega al directorio del repositorio:
-    ```python
+2. Navigate to the repository directory:
+    ```bash
     cd Webshell_Scanner
     ```
-3. InstalaciÛn de requerimientos:
-    ```python
+3. Install the requirements:
+    ```bash
     python3 -m pip install -r requirements.txt
     ```
 
-## :computer: InstalaciÛn en una LÌnea
+## :computer: One-Line Installation
 ```bash
-wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh; sudo chmod +x install.sh; sudo ./install.sh; sudo rm -rf install.sh
+wget https://raw.githubusercontent.com/JennValentine/Webshell_Scanner/main/install.sh && sudo chmod +x install.sh && sudo ./install.sh && sudo rm -rf install.sh
 ```
 
-## :sos: Ayuda 
+## :sos: Help
 
-Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
+Run the script with the `-h` or `--help` arguments to display help about arguments:
 
-```python
+```bash
 python3 webshell_scanner.py -h
 ```
+
 ```
-webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file] -t 100
 
-Argumentos:
+Arguments:
 
-* -u URL, --url URL: Especifica la URL del sitio web objetivo.
-* -s SHELL_FILE, --shell SHELL_FILE: Especifica la ruta del archivo que contiene la lista de nombres de shell.
-* -d DIRECTORIES_FILE, --directories DIRECTORIES_FILE: (Opcional) Especifica la ruta del archivo que contiene los directorios a escanear en busca de shells.
-* -o OUTPUT_FILE, --output OUTPUT_FILE: (Opcional) Guarda la salida en un archivo.
+* -u URL, --url URL: Specifies the target website URL.
+* -s SHELL_FILE, --shell SHELL_FILE: Specifies the path to the file containing the list of shell names.
+* -d DIRECTORIES_FILE, --directories DIRECTORIES_FILE: (Optional) Specifies the path to the file containing directories to scan for shells.
+* -o OUTPUT_FILE, --output OUTPUT_FILE: (Optional) Saves the output to a file.
+* -t THREADS, --threads THREADS: Number of threads (default: 10).
 ```
 
-## :rocket: Modo de Uso para webshell scanner
+## :rocket: How to Use the Webshell Scanner
 
-Para utilizar el webshell scanner, ejecuta el script webshell_scanner.py desde la lÌnea de comandos con los par·metros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
+To use the webshell scanner, run the `webshell_scanner.py` script from the command line with appropriate parameters, such as the target website URL and the path to the webshell file list.
 
-Ejemplo de uso:
+Example usage:
 
-```python
+```bash
 python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt
 ```
 
-Ejemplo de uso con guardado de salida:
+Example usage with output file:
 
-```python
+```bash
 python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -o found_shells.txt
 ```
 
-Ejemplo de uso con directorios guardados por 'dirb script':
-```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt
+Example usage with directories saved by the 'dirb script':
+
+```bash
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directories_found.txt
 ```
 
-Ejemplo de uso con directorios guardados por 'dirb script' con guardado de salida:
+Example usage with directories saved by the 'dirb script' and output file:
 
-```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt -o found_shells.txt
+```bash
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directories_found.txt -o found_shells.txt
 ```
+
 ![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
-:memo: Notas: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
+:memo: Notes: The webshell scanner identifies the presence of webshells on a given website. It uses a list of common webshell file names and makes HTTP requests to check their existence on the target website. Once found, it displays the URLs of the detected webshells.
 
-## :rocket: Modo de Uso para dirb script
+## :rocket: How to Use the Dirb Script
 
-Para utilizar el dirb script, ejecuta el script dirb script desde la lÌnea de comandos con la URL del sitio web que deseas escanear como ˙nico argumento.
+To use the Dirb script, run the `dirb_script.py` from the command line with the URL of the website you wish to scan as the only argument.
 
-Ejemplo de uso:
+Example usage:
 
-```python
+```bash
 python3 dirb_script.py http://example.com/
 ```
+
 ![logo](https://github.com/JennValentine/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
 
-:memo: Notas: El dirb script se utiliza para realizar un escaneo de directorios en una URL especificada. Utiliza la herramienta Dirb para realizar el escaneo y captura los directorios y archivos encontrados durante el proceso. Los resultados se guardan en archivos de texto para su posterior an·lisis.
+:memo: Notes: The Dirb script is used to perform directory scanning on a specified URL. It uses the Dirb tool to perform the scan and captures the directories and files found during the process. The results are saved in text files for further analysis.
 
-## :email: Contacto
+## :email: Contact
 * :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Update Contributor :octocat:
+
+## üåê Translated by
+* üë• [Lance Kenji](https://t.me/lance_aswwscxzc)
