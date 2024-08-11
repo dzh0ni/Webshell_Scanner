@@ -41,8 +41,8 @@ Arguments:
 * -u URL, --url URL: Specifies the target website URL.
 * -s SHELL_FILE, --shell SHELL_FILE: Specifies the path to the file containing the list of shell names.
 * -d DIRECTORIES_FILE, --directories DIRECTORIES_FILE: (Optional) Specifies the path to the file containing directories to scan for shells.
-* -t THREADS, --threads THREADS: Number of threads (default: 10).
 * -o OUTPUT_FILE, --output OUTPUT_FILE: (Optional) Saves the output to a file.
+* -t THREADS, --threads THREADS: Number of threads (default: 10).
 ```
 
 ## :rocket: How to Use the Webshell Scanner
