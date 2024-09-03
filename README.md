@@ -125,3 +125,4 @@ Webshell_Scanner/
 
 ## :email: Contacto
 * :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Contribución
+* :busts_in_silhouette: [Lance Kenji Parce](https://t.me/lance_aswwscxzc) - Actualización de codigo [GitHub](https://github.com/lancekenji/Webshell_Scanner)
