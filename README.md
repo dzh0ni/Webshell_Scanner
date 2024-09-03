@@ -97,45 +97,30 @@ python3 dirb_script.py http://example.com/
 
 ## :open_file_folder: Estructura del Repositorio
 
-```plaintext
-Directorio-mkt/
-¦
-+-- Imagenes/            # Carpeta que contiene imágenes de ejemplos y del script en ejecución.
-¦   +-- dirb_script.jpg
-¦   +-- webshell_scanner.jpg
-¦
-+-- LICENSE              # Licencia MIT para el proyecto.
-¦
-+-- README.md            # Archivo README con la documentación del proyecto.
-¦
-+-- dirb_script.py       # Script Python que realiza un escaneo utilizando Dirb.
-¦
-+-- install.sh           # Script de instalación automática.
-¦
-+-- requirements.txt     # Archivo con las dependencias necesarias para ejecutar el proyecto.
-¦
-+-- shelllist.txt        # Lista de nombres comunes de webshells para el escaneo.
-¦
-+-- webshell_scanner.py  # Script Python principal que realiza la detección de webshells.
-```
-
 ## :email: Contacto
 * :busts_in_silhouette: [Jenn Valentine](https://t.me/JennValentine) - Contribución
 
 
 ```plaintext
-Directorio-mkt/
+Webshell_Scanner/
 │
 ├── Imagenes/            # Carpeta que contiene imágenes de ejemplos y del script en ejecución.
-│   └── Directorio-mkt.jpg
+│   ├── dirb_script.jpg
+│   └── webshell_scanner.jpg
 │
 ├── LICENSE              # Licencia MIT para el proyecto.
 │
 ├── README.md            # Archivo README con la documentación del proyecto.
 │
+├── dirb_script.py       # Script Python que realiza un escaneo utilizando Dirb.
+│
 ├── install.sh           # Script de instalación automática.
 │
-└── mkt.sh               # Script principal que realiza la creación de directorios.
+├── requirements.txt     # Archivo con las dependencias necesarias para ejecutar el proyecto.
+│
+├── shelllist.txt        # Lista de nombres comunes de webshells para el escaneo.
+│
+└── webshell_scanner.py  # Script Python principal que realiza la detección de webshells.
 ```
 
 ## :email: Contacto
