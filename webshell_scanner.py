@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #====================================================
-#   SCRIPT:                   WEBSHELL SCANNER
-#   DESARROLLADO POR:         JENN VALENTINE 
+#   SCRIPT:                   Webshell Scanner
+#   DESARROLLADO POR:         Jenn Valentine 
 #   FECHA DE ACTUALIZACIÃ“N:  29-03-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
