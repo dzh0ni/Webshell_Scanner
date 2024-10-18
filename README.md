@@ -18,7 +18,8 @@ ls -ltha
 
 ## :package: Paquete
 ```python
-sudo python3 -m pip install -r requirements.txt
+sudo apt installl -y dirb 
+sudo python3 -m pip install -r requirements.txt 
 ```
 
 ## :computer: Instalación en una Línea
@@ -44,7 +45,8 @@ Argumentos:
 * -o OUTPUT_FILE, --output OUTPUT_FILE: (Opcional) Guarda la salida en un archivo.
 ```
 
-## :rocket: Modo de Uso `webshell scanner`
+## :rocket: Modo de Uso
+**webshell scanner**
 
 Para utilizar el webshell scanner, ejecuta el script webshell_scanner.py desde la línea de comandos con los parámetros adecuados, como la URL del sitio web objetivo y la ruta del archivo de lista de nombres de archivos de webshells.
 
@@ -74,7 +76,8 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directori
 
 :memo: Notas: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
 
-## :rocket: Modo de Uso `dirb script`
+## :rocket: Modo de Uso 
+**dirb script**
 
 Para utilizar el dirb script, ejecuta el script dirb script desde la línea de comandos con la URL del sitio web que deseas escanear como único argumento.
 
