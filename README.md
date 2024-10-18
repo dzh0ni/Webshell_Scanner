@@ -106,7 +106,7 @@ python3 dirb_script.py http://example.com/
 
 ## :email: Contacto 
 * :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner) - Desarrollador Webshell Scanner 
-* :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/lancekenji/JennValentine) - Contribución de codigo
+* :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/lancekenji/JennValentine) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **lancekenji**: [GitHub](https://github.com/lancekenji/Webshell_Scanner) - Actualización de codigo y traduccion 
 
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
