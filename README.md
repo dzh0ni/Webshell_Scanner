@@ -114,7 +114,7 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o e
 
 ## :email: Contacto 
 * :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner) - Desarrollador Webshell Scanner 
-* :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/lancekenji/JennValentine) - Desarrollador Webshell Scanner 
+* :busts_in_silhouette: **JennValentine**: [GitHub](https://github.com/JennValentine) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **lancekenji**: [GitHub](https://github.com/lancekenji/Webshell_Scanner) - Actualización de codigo y traduccion 
 
 ☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
