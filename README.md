@@ -104,6 +104,14 @@ python3 dirb_script.py http://example.com/
 | :book:           | shelllist.txt       | Lista de nombres comunes de webshells para el escaneo |
 | :page_facing_up: | webshell_scanner.py | Script Python principal que realiza la detección de webshells |
 
+## :star2: Contribuciones
+
+Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o encuentras algún problema, siéntete libre de abrir un *pull request* o *issue*.
+
+## :warning: Advertencias
+
+- Uso Responsable: Este script está diseñado para ser utilizado en dispositivos y redes que te pertenecen o para las que tienes permiso de uso. No lo utilices para actividades no autorizadas.
+
 ## :email: Contacto 
 * :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/lancekenji/JennValentine) - Desarrollador Webshell Scanner 
