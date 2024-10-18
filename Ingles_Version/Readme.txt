@@ -1,4 +1,4 @@
-# Pruebas de desarrollo 
+# Pruebas de desarrollo | lance kenji v1 - English Traduccion
 
 python3 dirb_script.py http://192.168.126.132/
 
