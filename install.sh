@@ -1,5 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/JennValentine/Webshell_Scanner.git
+git clone https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner.git
+chmod +x Webshell_Scanner/*
 cd Webshell_Scanner
-python3 -m pip install -r requirements.txt
+ls -ltha

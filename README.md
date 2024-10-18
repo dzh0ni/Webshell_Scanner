@@ -11,7 +11,7 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
 ## :computer: Instalación
 ```python
 git clone https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner.git
-sudo chmod +x Webshell_Scanner/*
+chmod +x Webshell_Scanner/*
 cd Webshell_Scanner
 ls -ltha
 ```
