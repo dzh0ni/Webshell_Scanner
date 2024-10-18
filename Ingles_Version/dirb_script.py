@@ -74,6 +74,8 @@ def run_dirb(url):
 def save_to_txt(data, file):
     with open(file, 'w') as f:
         for item in data:
+            # Remove the trailing slash if it exists
+            item = item.rstrip('/')
             f.write(item + '\n')
             print(f"{checkmark} Saved to {file}: {item}")
             time.sleep(0.1)  # Simulating a longer writing process

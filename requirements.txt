@@ -1,2 +1,5 @@
+# requirements.txt
+
 requests
 tqdm
+colorama

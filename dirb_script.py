@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #====================================================
-#   SCRIPT:                   DIRB SCRIPT - WEBSHELL SCANNER
-#   DESARROLLADO POR:         JENN VALENTINE 
+#   SCRIPT:                   Dirb Script- Webshell Scanner
+#   DESARROLLADO POR:         Jenn Valentine 
 #   FECHA DE ACTUALIZACIÓN:   29-03-2024 
 #   CONTACTO POR TELEGRAMA:   https://t.me/JennValentine
 #   GITHUB OFICIAL:           https://github.com/JennValentine/Webshell_Scanner
@@ -42,14 +42,13 @@ bg_magenta = "\033[0;45m"   # Fondo Magenta
 bg_cyan = "\033[0;46m"      # Fondo Cian
 bg_white = "\033[0;47m"     # Fondo Blanco
 
-# Iconos v3
+# Iconos
 checkmark = f"{white}[{green}++{white}]{green}"
 error = f"{white}[{red}--{white}]{reset}"
 info = f"{white}[{yellow}**{white}]{white}"
 unknown = f"{white}[{blue}!!{white}]{reset}"
 process = f"{white}[{magenta}>>{white}]{magenta}"
 indicator = f"{red}==>{reset}"
-
 
 # Barra de separación
 barra = f"{blue}|--------------------------------------------|{reset}"
@@ -75,20 +74,22 @@ def ejecutar_dirb(url):
 def guardar_en_txt(datos, archivo):
     with open(archivo, 'w') as f:
         for dato in datos:
+            # Quitar la barra final si existe
+            dato = dato.rstrip('/')
             f.write(dato + '\n')
             print(f"{checkmark} Guardado en {archivo}: {dato}")
-            time.sleep(0.1)  # Simulación de un proceso de escritura más largo
+            time.sleep(0.1)  # Simulando un proceso de escritura más largo
     print(f"\n{info} Los datos han sido guardados en {archivo}\n")
     print(bar)
 
-def KeyboardInterruptHandler(signal, frame):
-    print(f"\n\n{error} KeyboardInterrupt Operación cancelada. Saliendo del programa...")
+def manejador_interrupcion(signal, frame):
+    print(f"\n\n{error} Interrupción de teclado. Operación cancelada. Saliendo del programa...")
     sys.exit(0)
 
 if __name__ == "__main__":
-    # Manejar KeyboardInterrupt
+    # Manejar la interrupción de teclado
     import signal
-    signal.signal(signal.SIGINT, KeyboardInterruptHandler)
+    signal.signal(signal.SIGINT, manejador_interrupcion)
     
     # Verificar la cantidad de argumentos
     if len(sys.argv) != 2:
