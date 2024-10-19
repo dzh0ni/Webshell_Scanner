@@ -34,17 +34,22 @@ sudo wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scan
 Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
 
 ```python
-python3 webshell_scanner.py -h
+python3 webshell_scanner.py --help
 ```
 ```
-webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
+usage: webshell_scanner.py [-h] -u URL -s SHELL [-d DIRECTORIES] [-o output_file]
 
-Argumentos:
+Webshell Scanner
 
-* -u URL, --url URL: Especifica la URL del sitio web objetivo.
-* -s SHELL_FILE, --shell SHELL_FILE: Especifica la ruta del archivo que contiene la lista de nombres de shell.
-* -d DIRECTORIES_FILE, --directories DIRECTORIES_FILE: (Opcional) Especifica la ruta del archivo que contiene los directorios a escanear en busca de shells.
-* -o OUTPUT_FILE, --output OUTPUT_FILE: (Opcional) Guarda la salida en un archivo.
+options:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     URL del sitio web objetivo
+  -s SHELL, --shell SHELL
+                        Ruta del archivo que contiene la lista de nombres de shell
+  -d DIRECTORIES, --directories DIRECTORIES
+                        Ruta del archivo que contiene los directorios a escanear
+  -o output_file, --output output_file
+                        Guardar la salida en un archivo
 ```
 
 ## :rocket: Modo de Uso
@@ -66,13 +71,13 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -o found_she
 
 Ejemplo de uso con directorios guardados por 'dirb script':
 ```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d found_directories.txt
 ```
 
 Ejemplo de uso con directorios guardados por 'dirb script' con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt -o found_shells.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d found_directories.txt -o found_shells.txt
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
