@@ -66,18 +66,18 @@ python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt
 Ejemplo de uso con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -o found_shells.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -o Posibles_shells.txt
 ```
 
 Ejemplo de uso con directorios guardados por 'dirb script':
 ```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d found_directories.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt
 ```
 
 Ejemplo de uso con directorios guardados por 'dirb script' con guardado de salida:
 
 ```python
-python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d found_directories.txt -o found_shells.txt
+python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt -o Posibles_shells.txt
 ```
 ![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
