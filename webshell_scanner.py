@@ -133,7 +133,7 @@ def main():
 
     # Mostrar estadísticas finales
     print(f"\n{bold}Total de shells en base de datos:{reset} {len(shells)}")
-    print(f"{bold}Shells encontradas:{reset} {len(found_shells)}")
+    print(f"{bold}Posibles shells encontradas:{reset} {len(found_shells)}")
     print(f"{bold}Shells no encontradas:{reset} {len(shells) - len(found_shells)}")
 
     print(f"\n{info} {white}GITHUB OFICIAL: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
