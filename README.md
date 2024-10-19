@@ -18,8 +18,10 @@ ls -ltha
 
 ## :package: Paquete
 ```python
-sudo apt installl -y dirb nmap arp-scan
 sudo python3 -m pip install -r requirements.txt 
+```
+```python
+sudo apt installl -y dirb nmap arp-scan
 ```
 
 ## :computer: Instalación en una Línea
