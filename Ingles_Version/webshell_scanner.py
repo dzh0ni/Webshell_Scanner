@@ -162,7 +162,7 @@ def main():
     not_found_count = total_shells - found_count
 
     print(f"\n{bold}Total shells in list:{reset} {total_shells}")
-    print(f"{bold}Shells found:{reset} {found_count}")
+    print(f"{bold}Possible shells found:{reset} {found_count}")
     print(f"{bold}Shells not found:{reset} {not_found_count}")
 
     print(f"\n{info} {white}OFFICIAL GITHUB: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
