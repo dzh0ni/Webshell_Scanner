@@ -5,6 +5,4 @@ chmod +x Webshell_Scanner/*
 cd Webshell_Scanner
 ls -ltha
 sudo python3 -m pip install -r requirements.txt 
-sudo apt installl -y dirb nmap arp-scan 
-
-
+sudo apt installl -y dirb 
