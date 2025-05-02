@@ -21,12 +21,12 @@ ls -ltha
 sudo python3 -m pip install -r requirements.txt 
 ```
 ```python
-sudo apt installl -y dirb nmap arp-scan
+sudo apt install -y dirb
 ```
 
 ## :computer: Instalación en una Línea
 ```bash
-sudo wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/main/install.sh -O - | sudo bash
+sudo wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/main/install.sh -O - | sudo bash && sudo rm -rf wget-log*
 ```
 
 ## :sos: Ayuda 
@@ -123,8 +123,6 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o e
 - Uso Responsable: Este script está diseñado para ser utilizado en dispositivos y redes que te pertenecen o para las que tienes permiso de uso. No lo utilices para actividades no autorizadas.
 
 ## :email: Contacto 
-* :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner) - Desarrollador Webshell Scanner 
+* :busts_in_silhouette: **Dzhoni**: [GitHub](https://github.com/dzh0ni/Webshell_Scanner) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **JennValentine**: [GitHub](https://github.com/JennValentine) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **lancekenji**: [GitHub](https://github.com/lancekenji/Webshell_Scanner) - Actualización de codigo y traduccion 
-
-☆ https://t.me/AAAAAEXQOSyIpN2JZ0ehUQ [  ⃘⃤꙰✰ ] ☆
