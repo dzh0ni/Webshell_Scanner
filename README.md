@@ -123,6 +123,6 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o e
 - Uso Responsable: Este script está diseñado para ser utilizado en dispositivos y redes que te pertenecen o para las que tienes permiso de uso. No lo utilices para actividades no autorizadas.
 
 ## :email: Contacto 
-* :busts_in_silhouette: **Dzhoni**: ![GitHub](https://github.com/dzh0ni/Webshell_Scanner) - Desarrollador Webshell Scanner 
+* :busts_in_silhouette: **Dzhoni**: ![GitHub](https://github.com/dzh0ni) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **JennValentine**: ![GitHub](https://github.com/JennValentine) - Desarrollador Webshell Scanner 
-* :busts_in_silhouette: **lancekenji**: ![GitHub](https://github.com/lancekenji) - English Translations and Threading Implmentations 
+* :busts_in_silhouette: **LanceKenji**: ![GitHub](https://github.com/lancekenji) - English Translations and Threading Implmentations 
