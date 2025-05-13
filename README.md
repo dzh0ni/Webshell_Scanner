@@ -10,7 +10,7 @@ complementaria un script para realizar un escaneo de directorios utilizando Dirb
 
 ## :computer: Instalación
 ```python
-git clone https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner.git
+git clone https://github.com/dzh0ni/Webshell_Scanner.git
 chmod +x Webshell_Scanner/*
 cd Webshell_Scanner
 ls -ltha
@@ -26,7 +26,7 @@ sudo apt install -y dirb
 
 ## :computer: Instalación en una Línea
 ```bash
-sudo wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/main/install.sh -O - | sudo bash && sudo rm -rf wget-log*
+sudo wget https://raw.githubusercontent.com/dzh0ni/Webshell_Scanner/main/install.sh -O - | sudo bash && sudo rm -rf wget-log*
 ```
 
 ## :sos: Ayuda 
@@ -79,7 +79,7 @@ Ejemplo de uso con directorios guardados por 'dirb script' con guardado de salid
 ```python
 python3 webshell_scanner.py -u http://example.com/ -s shelllist.txt -d directorios_encontrados.txt -o Posibles_shells.txt
 ```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
+![logo](https://github.com/dzh0ni/Webshell_Scanner/blob/main/Imagenes/webshell_scanner.jpg)
 
 :memo: Notas: El webshell scanner se encarga de identificar la presencia de webshells en un sitio web dado. Utiliza una lista de nombres de archivos comunes asociados con webshells y realiza solicitudes HTTP para verificar su existencia en el sitio web objetivo. Una vez encontradas, muestra las URL de las webshells encontradas.
 
@@ -93,7 +93,7 @@ Ejemplo de uso:
 ```python
 python3 dirb_script.py http://example.com/
 ```
-![logo](https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
+![logo](https://github.com/dzh0ni/Webshell_Scanner/blob/main/Imagenes/dirb_script.jpg)
 :memo: El dirb script se utiliza para realizar un escaneo de directorios en una URL especificada. Utiliza la herramienta Dirb para realizar el escaneo y captura los directorios y archivos encontrados durante el proceso. Los resultados se guardan en archivos de texto para su posterior análisis.
 
 ## :hammer_and_wrench: Requisitos 
