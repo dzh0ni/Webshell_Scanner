@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
+
 #====================================================
+#
 #   SCRIPT:                   Dirb Script - Webshell Scanner
-#   DEVELOPED BY:             Jenn Valentine 
+#   DEVELOPED BY:             dZh0ni - Jony Rivera 
 #   LAST UPDATED:             03-29-2024 
-#   CONTACT VIA TELEGRAM:     https://t.me/JennValentine
-#   OFFICIAL GITHUB:          https://github.com/JennValentine/Webshell_Scanner
+#   CONTACT VIA TELEGRAM:     https://t.me/dZh0ni_Dev
+#   OFFICIAL GITHUB:          https://github.com/dzh0ni/Webshell_Scanner
+#
 #====================================================
 
 # Import necessary modules

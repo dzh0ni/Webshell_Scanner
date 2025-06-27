@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
+
 #====================================================
+#
 #   SCRIPT:                   Webshell Scanner
-#   DEVELOPED BY:             Jenn Valentine 
+#   DEVELOPED BY:             dZh0ni - Jony Rivera 
 #   LAST UPDATED:             03-29-2024 
-#   CONTACT VIA TELEGRAM:     https://t.me/JennValentine
-#   OFFICIAL GITHUB:          https://github.com/JennValentine/Webshell_Scanner
-#====================================================
-
-#====================================================
-#    Modified by: Lance Kenji
-#    Github: https://github.com/lancekenji
-#    Contact: https://t.me/lance_aswwscxzc
-#====================================================
-
-#====================================================
-# v1 - English Translation | Threading Implementation using `concurrent`
+#   CONTACT VIA TELEGRAM:     https://t.me/dZh0ni_Dev
+#   OFFICIAL GITHUB:          https://github.com/dzh0ni/Webshell_Scanner
+#
+#	Modified by: Lance Kenji
+#	Github: https://github.com/lancekenji
+#	Contact: https://t.me/lance_aswwscxzc
+#	v1 - English Translation | Threading Implementation using `concurrent`
+#
 #====================================================
 
 # Import necessary modules
