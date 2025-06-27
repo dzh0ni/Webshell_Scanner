@@ -126,5 +126,5 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o e
 
 ## :email: Contacto 
 * :busts_in_silhouette: **dZh0ni**: [Telegram](https://t.me/dZh0ni_Dev) - Desarrollador Webshell Scanner
-* :busts_in_silhouette: **JennValentine**: ![Telegra](https://t.me/JennValentine) - Desarrollador Webshell Scanner 
+* :busts_in_silhouette: **JennValentine**: ![Telegram](https://t.me/JennValentine) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **LanceKenji**: ![GitHub](https://github.com/lancekenji) - English Translations and Threading Implmentations 
