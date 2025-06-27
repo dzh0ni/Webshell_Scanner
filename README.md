@@ -26,7 +26,7 @@ sudo python3 -m pip install -r requirements.txt
 sudo apt install -y dirb
 ```
 
-## :computer: Instalación en una Línea
+## :computer: Instalación en una Línea (Solo script)
 ```bash
 sudo wget https://raw.githubusercontent.com/dzh0ni/Webshell_Scanner/main/install.sh -O - | sudo bash && sudo rm -rf wget-log*
 ```
