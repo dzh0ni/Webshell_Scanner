@@ -1,4 +1,6 @@
-﻿﻿# Webshell Scanner :octocat:
+﻿![logo](https://multianime.com.mx/wp-content/uploads/2020/08/anime-404-gomen-.jpg)
+
+# Webshell Scanner :octocat:
 
 ## :information_source: Descripción
 Este script en Python es un escáner de webshells que se encarga de identificar 
