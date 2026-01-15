@@ -26,11 +26,6 @@ sudo python3 -m pip install -r requirements.txt
 sudo apt install -y dirb
 ```
 
-## :computer: Instalación en una Línea (Solo script)
-```bash
-sudo wget https://raw.githubusercontent.com/dzh0ni/Webshell_Scanner/main/install.sh -O - | sudo bash && sudo rm -rf wget-log*
-```
-
 ## :sos: Ayuda 
 
 Ejecutar el script con argumentos -h, --help para desplegar la ayauda de argumentos:
@@ -126,5 +121,5 @@ Las contribuciones son bienvenidas. Si tienes ideas para mejorar este script o e
 
 ## :email: Contacto 
 * :busts_in_silhouette: **dZh0ni**: [Telegram](https://t.me/dZh0ni_Dev) - Desarrollador Webshell Scanner
-* :busts_in_silhouette: **JennValentine**: ![Telegram](https://t.me/JennValentine) - Desarrollador Webshell Scanner 
 * :busts_in_silhouette: **LanceKenji**: ![GitHub](https://github.com/lancekenji) - English Translations and Threading Implmentations 
+
