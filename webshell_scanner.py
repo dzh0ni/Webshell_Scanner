@@ -108,7 +108,7 @@ def main():
     # Print script information
     print(f"\n{bar}")
     print(f"{bold}WEBSHELL SCANNER v1.00{reset}")
-    print(f"{bold}By JENN VALENTINE{reset}")
+    print(f"{bold}By dZh0ni{reset}")
     print(f"{bar}\n")
     print(f"START_TIME: {datetime.now().strftime('%a %b %d %H:%M:%S %Y')}")
     print(f"BASE_URL: {args.url}")
@@ -163,7 +163,7 @@ def main():
     print(f"{bold}Possible shells found:{reset} {found_count}")
     print(f"{bold}Shells not found:{reset} {not_found_count}")
 
-    print(f"\n{info} {white}OFFICIAL GITHUB: {green}https://github.com/JennValentine/Webshell_Scanner{reset}")
+    print(f"\n{info} {white}OFFICIAL GITHUB: {green}https://github.com/dzh0ni/Webshell_Scanner{reset}")
     print(f"\n{bar}")
 
     # Save output to file if specified
@@ -177,3 +177,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n\n{error} KeyboardInterrupt: Operation cancelled. Exiting...")
         sys.exit(0)
+
